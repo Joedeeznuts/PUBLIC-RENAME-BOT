@@ -37,12 +37,14 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"👋 Hai {user.mention} \n𝙸'𝚖 𝙰 𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛 𝙱𝙾𝚃 𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 & 𝙲𝚞𝚜𝚝𝚘𝚖 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝚂𝚞𝚙𝚙𝚘𝚛𝚝!"
+    txt=f"𝐇𝐞𝐥𝐥𝐨 {user.mention} \n𝐈 𝐚𝐦 𝐚 𝐅𝐢𝐥𝐞 𝐑𝐞𝐧𝐚𝐦𝐞𝐫 𝐁𝐨𝐭 (𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐥𝐬𝐨 𝐦𝐞 𝐭𝐨 𝐂𝐨𝐧𝐯𝐞𝐫𝐭 𝐅𝐢𝐥𝐞𝐬 𝐢𝐧𝐭𝐨 𝐕𝐢𝐝𝐞𝐨𝐬 𝐚𝐧𝐝 𝐯𝐢𝐜𝐞-𝐯𝐞𝐫𝐬𝐚)
+
+• 𝐈 𝐡𝐚𝐯𝐞 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐂𝐮𝐬𝐭𝐨𝐦 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 & 𝐂𝐚𝐩𝐭𝐢𝐨𝐧 𝐒𝐮𝐩𝐩𝐨𝐫𝐭."
     button=InlineKeyboardMarkup([
 
 [
         InlineKeyboardButton('◆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ◆', url='https://t.me/allanimesschannel'),
-        InlineKeyboardButton('🍂 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/+YSIxPxLVTOE5NmQ9')
+        InlineKeyboardButton('◆ 𝗤𝘂𝗲𝗿𝗶𝗲𝘀 ◆', url='https://t.me/+YSIxPxLVTOE5NmQ9')
         ],[
         InlineKeyboardButton('🍃 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
         InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help')
