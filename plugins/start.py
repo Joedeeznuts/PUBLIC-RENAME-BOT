@@ -45,10 +45,10 @@ async def start(client, message):
 [
         InlineKeyboardButton('◆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ◆', url='https://t.me/allanimesschannel'),
         InlineKeyboardButton('◆ 𝗤𝘂𝗲𝗿𝗶𝗲𝘀 ◆', url='https://t.me/+YSIxPxLVTOE5NmQ9')
-        ],[
-        InlineKeyboardButton('🍃 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
-        InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help')
-        ]])
+        ]
+
+
+])
     if START_PIC:
         await message.reply_photo(START_PIC, caption=txt, reply_markup=button)       
     else:
