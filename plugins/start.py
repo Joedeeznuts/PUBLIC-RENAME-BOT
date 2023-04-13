@@ -43,8 +43,8 @@ async def start(client, message):
     button=InlineKeyboardMarkup([
 
 [
-        InlineKeyboardButton('◆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ◆', url='https://t.me/allanimesschannel'),
-        InlineKeyboardButton('◆ 𝗤𝘂𝗲𝗿𝗶𝗲𝘀 ◆', url='https://t.me/+YSIxPxLVTOE5NmQ9')
+        InlineKeyboardButton('◆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ◆', url='https://t.me/Marvel_all_HD'),
+        InlineKeyboardButton('◆ 𝗤𝘂𝗲𝗿𝗶𝗲𝘀 ◆', url='https://t.me/Marvel_all_HD)
         ]
 
 
@@ -87,8 +87,8 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [
 
 [
-                InlineKeyboardButton('◆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ◆', url='https://t.me/allanimesschannel'),
-                InlineKeyboardButton('◆ 𝗤𝘂𝗲𝗿𝗶𝗲𝘀 ◆', url='https://t.me/+YSIxPxLVTOE5NmQ9')
+                InlineKeyboardButton('◆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ◆', url='https://t.me/Marvel_all_HD'),
+                InlineKeyboardButton('◆ 𝗤𝘂𝗲𝗿𝗶𝗲𝘀 ◆', url='https://t.me/Marvel_all_HD')
                 ],[
                 InlineKeyboardButton('🍃 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
                 InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help')
